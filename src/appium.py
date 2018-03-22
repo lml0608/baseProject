@@ -23,7 +23,7 @@ class appium(object):
 
         currentTime = time.strftime('%Y%m%d%H%M%S',time.localtime())
 
-        udid          = ''
+        udid          = self.getUdid()
         appiumPort    = 1
         bootStrapPort = 2
         seldnroidPort = 3
@@ -44,7 +44,30 @@ class appium(object):
 
         cmd = 'adb devices'
 
-        data = subprocess.Popen(cmd,stdout=subprocess.PIPE,shell=True)
+        output = subprocess.Popen(cmd,stdout=subprocess.PIPE,shell=True)
+
+        print(output)
+
+        infoList = output.stdout.read()#.strip('List of devices attached')#.split()
+
+        print(bytes(infoList).strip('List'))
+
+        # if infoList != 0:
+        #
+        #     deviceList = []
+        #
+        #     for deviceInfo in infoList:
+        #
+        #         if deviceInfo != 'device':
+        #             deviceList.append(deviceInfo)
+        #
+        #
+        # return deviceList[0]
+
+
+app1 = appium()
+
+app1.getUdid()
 
 
 

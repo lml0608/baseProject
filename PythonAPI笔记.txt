@@ -1,0 +1,77 @@
+锁定屏幕
+driver.lock(5)
+
+将APP置于后台
+driver.background_app(5)
+收起键盘
+driver.hide_keyboard()
+
+启动activity
+
+driver.start_activity('com.example.android.apis', '.Foo')
+打开通知栏，打开下拉通知栏
+driver.open_notifications()
+
+是否已经安装
+driver.is_app_installed('com.example.android.apis')
+
+安装应用
+driver.install_app('path/to/my.apk')
+
+删除应用
+
+driver.remove_app('com.example.android.apis')
+摇晃
+driver.shake()
+关闭应用
+driver.close_app();
+启动
+driver.launch_app()
+重置（卸载重装）
+
+driver.reset()
+可用上下文
+driver.contexts
+当前上下文
+driver.current_context
+
+切换到默认的上下文
+driver.switch_to.context(None)
+
+应用的字符串
+driver.app_strings
+
+按键事件
+driver.keyevent(176)
+
+当前activity
+driver.current_activity
+
+触摸动作
+
+action = TouchAction(driver)
+action.press(element=el, x=10, y=10).release().perform()
+
+滑动
+driver.swipe(start=75, starty=500, endx=75, endy=0, duration=800)
+捏
+driver.pinch(element=el)
+放大
+driver.zoom(element=el)
+
+滑动到
+
+
+拉出文件
+driver.pull_file('Library/AddressBook/AddressBook.sqlitedb')
+
+推送文件
+data = "some data for the file"
+path = "/data/local/tmp/file.txt"
+driver.push_file(path, data.encode('base64'))
+
+设置
+
+current_settings = driver.get_settings()
+driver.update_settings({"someSetting": true})
+

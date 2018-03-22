@@ -1,0 +1,6 @@
+2018-03-22 15:09:53,063 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-22 15:09:53,065 testmycase.py[line:25] DEBUG   : test----25
+2018-03-22 15:09:53,066 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-22 15:09:53,067 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-22 15:09:53,068 testmycase.py[line:33] WARNING : test2----33
+2018-03-22 15:09:53,068 testmycase.py[line:20] DEBUG   : teardown---20

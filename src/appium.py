@@ -48,9 +48,20 @@ class appium(object):
 
         print(output)
 
-        infoList = output.stdout.read()#.strip('List of devices attached')#.split()
+        infoList = output.stdout.read()#split("\r\n") #.strip('List of devices attached')#.split()
 
-        print(bytes(infoList).strip('List'))
+        print(str(infoList).split("\\r\\n"))
+
+        for i in str(infoList).split("\\r\\n"):
+            print(i)
+
+        x = str(infoList).split("\\r\\n")
+
+        print(x[0])
+        print(x[1])
+        #x = str(infoList).split("\\r\n").strip('List of devices attached')
+
+        #print(len(x))
 
         # if infoList != 0:
         #

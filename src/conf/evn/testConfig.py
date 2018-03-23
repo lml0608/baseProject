@@ -10,5 +10,10 @@ config = {}
 config['appPackage'] = "com.example.android.apis"
 
 
+config['appiumPort'] = 4723
+config['bootstrapPort'] = 4750
+config['selendroidPort'] = 8120
+config['chromePort']   = 9553
+
 
 

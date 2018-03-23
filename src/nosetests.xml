@@ -1,5 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="2" errors="0" failures="0" skip="0"><testcase classname="src.testcase.testmycase.testMyCase" name="testcase" time="0.002"><system-out><![CDATA[setup function
-teardown function
-]]></system-out></testcase><testcase classname="src.testcase.testmycase.testMyCase" name="testcase2" time="0.002"><system-out><![CDATA[setup function
-teardown function
-]]></system-out></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="src.testcase.testlogin.testlogin" name="test_add_contacts" time="104.026"><error type="builtins.AttributeError" message="'testlogin' object has no attribute 'logger'&#10;-------------------- &gt;&gt; begin captured logging &lt;&lt; --------------------&#10;selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session {&quot;desiredCapabilities&quot;: {&quot;appPackage&quot;: &quot;com.urovo.wugumofang&quot;, &quot;appActivity&quot;: &quot;com.urovo.activity.login.view.LoginActivity&quot;, &quot;platformName&quot;: &quot;Android&quot;, &quot;platformVersion&quot;: &quot;8.0.0&quot;, &quot;deviceName&quot;: &quot;6be7fe3e&quot;, &quot;app&quot;: &quot;D:\\app\\baseProject\\src\\apk\\TradeSteward.apk&quot;, &quot;noReset&quot;: &quot;true&quot;, &quot;unicodeKeyboard&quot;: &quot;true&quot;, &quot;resetKeyboard&quot;: &quot;true&quot;}, &quot;requiredCapabilities&quot;: {}}&#10;selenium.webdriver.remote.remote_connection: DEBUG: Finished Request&#10;selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element {&quot;using&quot;: &quot;id&quot;, &quot;value&quot;: &quot;loginBtn&quot;, &quot;sessionId&quot;: &quot;341cb680-f1d4-46bc-8599-28cda851ec10&quot;}&#10;selenium.webdriver.remote.remote_connection: DEBUG: Finished Request&#10;selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element/1/click {&quot;id&quot;: &quot;1&quot;, &quot;sessionId&quot;: &quot;341cb680-f1d4-46bc-8599-28cda851ec10&quot;}&#10;selenium.webdriver.remote.remote_connection: DEBUG: Finished Request&#10;selenium.webdriver.remote.remote_connection: DEBUG: DELETE http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10 {&quot;sessionId&quot;: &quot;341cb680-f1d4-46bc-8599-28cda851ec10&quot;}&#10;selenium.webdriver.remote.remote_connection: DEBUG: Finished Request&#10;--------------------- &gt;&gt; end captured logging &lt;&lt; ---------------------"><![CDATA[  File "c:\python36\lib\unittest\case.py", line 59, in testPartExecutor
+    yield
+  File "c:\python36\lib\unittest\case.py", line 601, in run
+    testMethod()
+  File "c:\python36\lib\site-packages\nose\case.py", line 198, in runTest
+    self.test(*self.arg)
+  File "D:\app\baseProject\src\testcase\testlogin.py", line 74, in test_add_contacts
+    self.logger.info('.....end test.....')
+'testlogin' object has no attribute 'logger'
+-------------------- >> begin captured logging << --------------------
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.urovo.wugumofang", "appActivity": "com.urovo.activity.login.view.LoginActivity", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\baseProject\\src\\apk\\TradeSteward.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element {"using": "id", "value": "loginBtn", "sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element/1/click {"id": "1", "sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+selenium.webdriver.remote.remote_connection: DEBUG: DELETE http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10 {"sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
+selenium.webdriver.remote.remote_connection: DEBUG: Finished Request
+--------------------- >> end captured logging << ---------------------]]></error></testcase></testsuite>

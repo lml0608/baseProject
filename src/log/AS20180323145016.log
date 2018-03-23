@@ -1,0 +1,4 @@
+2018-03-23 06:50:21:688 - info: [Appium] Welcome to Appium v1.6.5
+2018-03-23 06:50:21:691 - info: [Appium] Non-default server args:
+2018-03-23 06:50:21:692 - info: [Appium]   log: D:\app\baseProject\src\log\AS20180323145016.log
+2018-03-23 06:50:21:742 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723

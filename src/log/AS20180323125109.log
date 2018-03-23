@@ -1,0 +1,87 @@
+2018-03-23 04:51:15:076 - info: [Appium] Welcome to Appium v1.6.5
+2018-03-23 04:51:15:078 - info: [Appium] Non-default server args:
+2018-03-23 04:51:15:079 - info: [Appium]   log: D:\app\baseProject\src\log\AS20180323125109.log
+2018-03-23 04:51:15:139 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-03-23 04:51:24:491 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.example.android.apis","appActivity":".view.Animation1","platformName":"Android","platformVersion":"8.0.0","deviceName":"6be7fe3e","app":"D:\\app\\com.example.android.apis_1.0.apk","noReset":"true","unicodeKeyboard":"true","resetKeyboard":"true"},"requiredCapabilities":{}}
+2018-03-23 04:51:24:494 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.example.android.apis","appActivity":".view.Animation1","platformName":"Android","platformVersion":"8.0.0","deviceName":"6be7fe3e","app":"D:\\app\\com.example.android.apis_1.0.apk","noReset":"true","unicodeKeyboard":"true","resetKeyboard":"true"},{},null]
+2018-03-23 04:51:24:495 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1521780684495 (12:51:24 GMT+0800 (中国标准时间))
+2018-03-23 04:51:24:498 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2018-03-23 04:51:24:499 - info: [Appium] Capabilities:
+2018-03-23 04:51:24:501 - info: [Appium]   appPackage: 'com.example.android.apis'
+2018-03-23 04:51:24:501 - info: [Appium]   appActivity: '.view.Animation1'
+2018-03-23 04:51:24:501 - info: [Appium]   platformName: 'Android'
+2018-03-23 04:51:24:501 - info: [Appium]   platformVersion: '8.0.0'
+2018-03-23 04:51:24:501 - info: [Appium]   deviceName: '6be7fe3e'
+2018-03-23 04:51:24:501 - info: [Appium]   app: 'D:\\app\\com.example.android.apis_1.0.apk'
+2018-03-23 04:51:24:501 - info: [Appium]   noReset: 'true'
+2018-03-23 04:51:24:502 - info: [Appium]   unicodeKeyboard: 'true'
+2018-03-23 04:51:24:502 - info: [Appium]   resetKeyboard: 'true'
+2018-03-23 04:51:24:503 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2018-03-23 04:51:24:508 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:51:24:508 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:51:24:508 - warn: [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:51:24:514 - info: [BaseDriver] Session created with session id: 26bf572b-f227-4cbb-9218-03491402a0c2
+2018-03-23 04:51:24:556 - info: [debug] [AndroidDriver] Getting Java version
+2018-03-23 04:51:24:763 - info: [AndroidDriver] Java version is: 1.8.0_101
+2018-03-23 04:51:24:767 - info: [ADB] Checking whether adb is present
+2018-03-23 04:51:24:773 - info: [ADB] Using adb.exe from D:\adt-bundle-windows\sdk\platform-tools\adb.exe
+2018-03-23 04:51:24:773 - info: [AndroidDriver] Retrieving device list
+2018-03-23 04:51:24:774 - info: [debug] [ADB] Trying to find a connected android device
+2018-03-23 04:51:24:775 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:24:888 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:24:888 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:24:889 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:25:195 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:29:386 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:29:387 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:29:387 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:29:679 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:33:872 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:33:873 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:33:873 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:34:167 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:38:420 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:38:420 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:38:420 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:38:723 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:42:935 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:42:935 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:42:935 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:43:232 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:51:47:464 - info: [debug] [ADB] 0 device(s) connected
+2018-03-23 04:51:47:465 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:47:466 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:47:959 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:47:960 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:49:275 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:49:276 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:50:571 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:50:572 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:51:871 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:51:872 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:53:220 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:53:221 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:54:506 - info: [debug] [ADB] Could not find devices, restarting adb server...
+2018-03-23 04:51:54:507 - info: [debug] [ADB] Restarting adb
+2018-03-23 04:51:55:809 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-03-23 04:51:55:810 - info: [debug] [AndroidDriver] Called deleteSession but bootstrap wasn't active
+2018-03-23 04:51:55:839 - error: [MJSONWP] Encountered internal error running command: Error: Could not find a connected Android device.
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:132:13)
+    at tryCatch (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at invoke (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at enqueueResult (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:185:17)
+    at new Promise (<anonymous>)
+    at new F (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\core-js\library\modules\$.export.js:30:36)
+    at AsyncIterator.enqueue (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:184:12)
+    at AsyncIterator.prototype.(anonymous function) [as next] (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at Object.runtime.async (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:209:12)
+    at getDevices (../../../lib/tools/system-calls.js:135:18)
+    at ADB.getDevices$ (../../../lib/tools/system-calls.js:149:20)
+    at tryCatch (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+    at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+    at GeneratorFunctionPrototype.prototype.(anonymous function) [as next] (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+    at GeneratorFunctionPrototype.invoke (C:\Users\zengzhi\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+    at <anonymous>
+2018-03-23 04:51:55:849 - info: [HTTP] <-- POST /wd/hub/session 500 31352 ms - 179 

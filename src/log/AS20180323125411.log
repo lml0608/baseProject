@@ -1,0 +1,53 @@
+2018-03-23 04:54:17:424 - info: [Appium] Welcome to Appium v1.6.5
+2018-03-23 04:54:17:427 - info: [Appium] Non-default server args:
+2018-03-23 04:54:17:427 - info: [Appium]   log: D:\app\baseProject\src\log\AS20180323125411.log
+2018-03-23 04:54:17:477 - info: [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-03-23 04:54:26:606 - info: [HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"appPackage":"com.example.android.apis","appActivity":".view.Animation1","platformName":"Android","platformVersion":"8.0.0","deviceName":"6be7fe3e","app":"D:\\app\\com.example.android.apis_1.0.apk","noReset":"true","unicodeKeyboard":"true","resetKeyboard":"true"},"requiredCapabilities":{}}
+2018-03-23 04:54:26:609 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"appPackage":"com.example.android.apis","appActivity":".view.Animation1","platformName":"Android","platformVersion":"8.0.0","deviceName":"6be7fe3e","app":"D:\\app\\com.example.android.apis_1.0.apk","noReset":"true","unicodeKeyboard":"true","resetKeyboard":"true"},{},null]
+2018-03-23 04:54:26:611 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1521780866611 (12:54:26 GMT+0800 (中国标准时间))
+2018-03-23 04:54:26:614 - info: [Appium] Creating new AndroidDriver (v1.20.0) session
+2018-03-23 04:54:26:615 - info: [Appium] Capabilities:
+2018-03-23 04:54:26:617 - info: [Appium]   appPackage: 'com.example.android.apis'
+2018-03-23 04:54:26:617 - info: [Appium]   appActivity: '.view.Animation1'
+2018-03-23 04:54:26:617 - info: [Appium]   platformName: 'Android'
+2018-03-23 04:54:26:618 - info: [Appium]   platformVersion: '8.0.0'
+2018-03-23 04:54:26:618 - info: [Appium]   deviceName: '6be7fe3e'
+2018-03-23 04:54:26:618 - info: [Appium]   app: 'D:\\app\\com.example.android.apis_1.0.apk'
+2018-03-23 04:54:26:618 - info: [Appium]   noReset: 'true'
+2018-03-23 04:54:26:618 - info: [Appium]   unicodeKeyboard: 'true'
+2018-03-23 04:54:26:618 - info: [Appium]   resetKeyboard: 'true'
+2018-03-23 04:54:26:620 - info: [debug] [AndroidDriver] AndroidDriver version: 1.20.0
+2018-03-23 04:54:26:626 - warn: [BaseDriver] Capability 'noReset' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:54:26:626 - warn: [BaseDriver] Capability 'unicodeKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:54:26:626 - warn: [BaseDriver] Capability 'resetKeyboard' changed from string to boolean. This may cause unexpected behavior
+2018-03-23 04:54:26:633 - info: [BaseDriver] Session created with session id: 402137b2-4dd9-4e22-97d0-14d0a4d1756d
+2018-03-23 04:54:26:679 - info: [debug] [AndroidDriver] Getting Java version
+2018-03-23 04:54:26:883 - info: [AndroidDriver] Java version is: 1.8.0_101
+2018-03-23 04:54:26:887 - info: [ADB] Checking whether adb is present
+2018-03-23 04:54:26:892 - info: [ADB] Using adb.exe from D:\adt-bundle-windows\sdk\platform-tools\adb.exe
+2018-03-23 04:54:26:893 - info: [AndroidDriver] Retrieving device list
+2018-03-23 04:54:26:893 - info: [debug] [ADB] Trying to find a connected android device
+2018-03-23 04:54:26:894 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:54:26:992 - info: [debug] [ADB] 1 device(s) connected
+2018-03-23 04:54:26:993 - info: [AndroidDriver] Looking for a device with Android '8.0.0'
+2018-03-23 04:54:26:993 - info: [debug] [ADB] Setting device id to 6be7fe3e
+2018-03-23 04:54:26:993 - info: [ADB] Getting device platform version
+2018-03-23 04:54:26:994 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:54:27:136 - info: [debug] [ADB] 1 device(s) connected
+2018-03-23 04:54:27:139 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","6be7fe3e","shell","getprop","ro.build.version.release"]
+2018-03-23 04:54:27:276 - info: [AndroidDriver] Using device: 6be7fe3e
+2018-03-23 04:54:27:277 - info: [ADB] Checking whether adb is present
+2018-03-23 04:54:27:281 - info: [ADB] Using adb.exe from D:\adt-bundle-windows\sdk\platform-tools\adb.exe
+2018-03-23 04:54:27:281 - info: [debug] [ADB] Setting device id to 6be7fe3e
+2018-03-23 04:54:27:282 - info: [BaseDriver] Using local app 'D:\app\com.example.android.apis_1.0.apk'
+2018-03-23 04:54:27:283 - info: [debug] [AndroidDriver] Checking whether app is actually present
+2018-03-23 04:54:27:284 - info: [AndroidDriver] Starting Android session
+2018-03-23 04:54:27:286 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","6be7fe3e","wait-for-device"]
+2018-03-23 04:54:27:374 - info: [debug] [ADB] Getting connected devices...
+2018-03-23 04:54:27:474 - info: [debug] [ADB] 1 device(s) connected
+2018-03-23 04:54:27:474 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","6be7fe3e","shell","echo","ping"]
+2018-03-23 04:54:27:586 - info: [debug] [Logcat] Starting logcat capture
+2018-03-23 04:54:27:708 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-03-23 04:54:27:709 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-03-23 04:54:27:709 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","6be7fe3e","install","C:\\Users\\zengzhi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]
+2018-03-23 04:54:43:360 - info: [debug] [ADB] Running 'D:\adt-bundle-windows\sdk\platform-tools\adb.exe' with args: ["-P",5037,"-s","6be7fe3e","install","C:\\Users\\zengzhi\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk"]

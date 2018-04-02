@@ -92,7 +92,27 @@ class appium(object):
 # app1.stop()
 # #
 
+cmd = 'adb devices'
+devList = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
 
+#print(len(devList.stdout.readlines()))
+
+x = devList.stdout.readlines()
+
+
+print(x[1].decode().split('\t')[0])
+#print(devList.stdout.readlines()[1].decode())
+#devices = []
+# for line in devList.stdout.readlines()[1:]:
+    #if 'List' not in line:
+        #devices.append((line.decode().split('\t'))[0])
+    # print(line.decode().split('\t')[0])
+    # print(type(line.decode().split('\t')))
+    # print(len(line.decode().split('\t')))
+    # print(line.decode().split('\t')[1])
+# devices.pop()
+# print("===devices===")
+#print(devices)
 
 
 

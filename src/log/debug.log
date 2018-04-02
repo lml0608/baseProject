@@ -1,118 +1,78 @@
-2018-03-23 12:42:32 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 12:42:32 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:42:47 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:42:47 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 12:50:52 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:50:52 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 12:50:52 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:50:52 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:50:52 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 12:50:52 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:51:09 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 12:51:09 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:51:24 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:51:24 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 12:51:55 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 12:51:55 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:51:55 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 12:51:55 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:51:55 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:51:55 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 12:51:55 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:51:55 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 12:51:55 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 12:52:41 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 12:52:41 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:52:56 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:52:56 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 12:53:28 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 12:53:28 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:53:28 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 12:53:28 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:53:28 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:53:28 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 12:53:28 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:53:28 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 12:53:28 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 12:54:11 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 12:54:11 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:54:26 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:54:26 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 12:57:40 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:57:46 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 12:57:46 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:58:01 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:58:01 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 13:00:12 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 13:00:12 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 13:00:22 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 13:00:22 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 13:00:37 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 13:00:37 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 13:08:07 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 13:08:07 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 13:08:23 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 13:08:23 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.example.android.apis", "appActivity": ".view.Animation1", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\com.example.android.apis_1.0.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 14:46:54 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:46:54 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:47:09 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:47:09 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 14:47:09 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:47:09 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:47:09 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 14:47:09 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:47:09 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 14:47:09 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 14:48:34 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:48:34 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:48:49 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:48:49 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 14:48:49 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:48:49 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:48:49 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 14:48:49 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:48:49 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 14:48:49 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 14:50:16 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:50:16 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:50:31 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:50:31 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 14:50:31 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:50:31 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:50:31 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 14:50:31 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:50:31 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 14:50:31 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 14:52:18 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:52:18 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:52:33 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:52:33 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 14:52:33 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:52:33 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 14:52:33 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 14:52:33 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 14:52:33 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 14:52:33 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 14:53:48 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:53:48 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:54:03 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 14:54:03 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 14:54:59 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 14:54:59 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 14:55:14 testlogin.py[line:33] INFO    : .....setup.....
-2018-03-23 14:55:14 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.urovo.wugumofang", "appActivity": "com.urovo.wgmf.LoginActivity", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\baseProject\\src\\apk\\TradeSteward.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 16:59:40 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 16:59:40 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 16:59:55 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.urovo.wugumofang", "appActivity": "com.urovo.activity.login.view.LoginActivity", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\baseProject\\src\\apk\\TradeSteward.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
-2018-03-23 17:01:17 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 17:01:27 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element {"using": "id", "value": "loginBtn", "sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
-2018-03-23 17:01:27 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 17:01:27 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10/element/1/click {"id": "1", "sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
-2018-03-23 17:01:27 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 17:01:37 remote_connection.py[line:415] DEBUG   : DELETE http://127.0.0.1:4723/wd/hub/session/341cb680-f1d4-46bc-8599-28cda851ec10 {"sessionId": "341cb680-f1d4-46bc-8599-28cda851ec10"}
-2018-03-23 17:01:39 remote_connection.py[line:510] DEBUG   : Finished Request
-2018-03-23 17:01:39 __init__.py[line:18] INFO    : 关闭Appium Server
-2018-03-23 17:01:39 appiumServer.py[line:60] INFO    : stop appium server...
-2018-03-23 17:02:16 __init__.py[line:14] INFO    : 启动Appium Server
-2018-03-23 17:02:16 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 17:02:31 remote_connection.py[line:415] DEBUG   : POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"appPackage": "com.urovo.wugumofang", "appActivity": "com.urovo.activity.login.view.LoginActivity", "platformName": "Android", "platformVersion": "8.0.0", "deviceName": "6be7fe3e", "app": "D:\\app\\baseProject\\src\\apk\\TradeSteward.apk", "noReset": "true", "unicodeKeyboard": "true", "resetKeyboard": "true"}, "requiredCapabilities": {}}
+2018-03-26 15:25:50 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:25:50 testmycase.py[line:25] DEBUG   : test----25
+2018-03-26 15:25:50 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:25:50 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:25:50 testmycase.py[line:33] WARNING : test2----33
+2018-03-26 15:25:50 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:28:37 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:28:37 testmycase.py[line:25] DEBUG   : test----25
+2018-03-26 15:28:37 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:28:37 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:28:37 testmycase.py[line:33] WARNING : test2----33
+2018-03-26 15:28:37 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:29:11 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:29:11 testmycase.py[line:25] DEBUG   : test----25
+2018-03-26 15:29:11 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:29:11 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:29:11 testmycase.py[line:33] WARNING : test2----33
+2018-03-26 15:29:11 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:30:25 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:30:25 testmycase.py[line:25] DEBUG   : test----25
+2018-03-26 15:30:25 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:30:25 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:30:25 testmycase.py[line:33] WARNING : test2----33
+2018-03-26 15:30:25 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:38:53 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:38:53 testmycase.py[line:25] DEBUG   : test----25
+2018-03-26 15:38:53 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:38:53 testmycase.py[line:15] DEBUG   : setup---15
+2018-03-26 15:38:53 testmycase.py[line:33] WARNING : test2----33
+2018-03-26 15:38:53 testmycase.py[line:20] DEBUG   : teardown---20
+2018-03-26 15:39:16 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 15:39:16 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 15:39:16 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 15:39:16 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 15:39:16 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 15:39:16 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:00:23 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:00:23 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:00:23 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:00:23 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:00:23 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:00:23 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:03:24 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:03:24 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:03:24 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:03:24 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:03:24 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:03:24 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:03:57 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:03:57 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:03:57 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:03:57 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:03:57 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:03:57 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:09:11 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:09:11 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:09:11 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:09:11 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:09:11 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:09:11 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:21:58 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:21:58 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:21:58 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:21:58 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:21:58 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:21:58 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:31:24 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:31:24 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:31:24 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:31:24 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:31:24 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:31:24 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:32:26 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:32:26 testmycase.py[line:28] DEBUG   : test----25
+2018-03-26 16:32:26 testmycase.py[line:21] DEBUG   : teardown---20
+2018-03-26 16:32:26 testmycase.py[line:16] DEBUG   : setup---15
+2018-03-26 16:32:26 testmycase.py[line:36] WARNING : test2----33
+2018-03-26 16:32:26 testmycase.py[line:21] DEBUG   : teardown---20

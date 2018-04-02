@@ -52,17 +52,17 @@ class testlogin(object):
         sleep(10)
 
 
-        # #self.logger.info('.....start test.....')
-        #
-        # self.driver.find_element_by_id('com.urovo.wugumofang:id/orgIdEdittext').send_keys('0110074')
-        #
-        # sleep(10)
-        #
-        # self.driver.find_element_by_id('com.urovo.wugumofang:id/userNameEditText').send_keys('0532')
-        # sleep(5)
-        #
-        # self.driver.find_element_by_id('com.urovo.wugumofang:id/passEditText').send_keys('321')
-        #sleep(5)
+        #self.logger.info('.....start test.....')
+
+        self.driver.find_element_by_id('com.urovo.wugumofang:id/orgIdEdittext').send_keys('0110074')
+
+        sleep(10)
+
+        self.driver.find_element_by_id('com.urovo.wugumofang:id/userNameEditText').send_keys('0532')
+        sleep(5)
+
+        self.driver.find_element_by_id('com.urovo.wugumofang:id/passEditText').send_keys('321')
+        sleep(5)
 
         self.driver.find_element_by_id('loginBtn').click()
 

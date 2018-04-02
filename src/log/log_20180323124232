@@ -1,9 +1,0 @@
-2018-03-23 12:42:32,475 __init__.py[line:14] INFO    : Æô¶¯Appium Server
-2018-03-23 12:42:32,475 appiumServer.py[line:25] INFO    : starting Appium Server...
-2018-03-23 12:42:47,703 testdemo1.py[line:33] INFO    : .....setup.....
-2018-03-23 12:50:52,220 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:50:52,222 testmycase.py[line:25] DEBUG   : test----25
-2018-03-23 12:50:52,222 testmycase.py[line:20] DEBUG   : teardown---20
-2018-03-23 12:50:52,223 testmycase.py[line:15] DEBUG   : setup---15
-2018-03-23 12:50:52,223 testmycase.py[line:33] WARNING : test2----33
-2018-03-23 12:50:52,224 testmycase.py[line:20] DEBUG   : teardown---20
